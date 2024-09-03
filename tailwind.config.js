@@ -2,7 +2,14 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      keyframes:{
+  pain: {
+    'from': { width: "0px" },
+    "to": { width: "30px" },
+  }
+}
+    }
+  }
+
 }
